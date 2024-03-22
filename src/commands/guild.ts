@@ -1,6 +1,6 @@
 import { SlashCommandProps } from "commandkit";
 import { SlashCommandBuilder} from "discord.js";
-import Guild from "@/schemas/Guild";
+import Guild from "../schemas/Guild";
 
 
 
