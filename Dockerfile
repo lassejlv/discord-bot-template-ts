@@ -1,7 +1,7 @@
 FROM node:latest
 
 # Create app directory
-WORKDIR /usr/src/app
+WORKDIR /app
 
 # Step 3: Install dependencies
 COPY package*.json ./

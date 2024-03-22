@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  app:
+    build: .
+    ports:
+      - "3000:3000" # Map port 3000 of the container to port 3000 on the host
+    command: npm start
+    volumes:
+      - .:/usr/src/app # Optional: only if you want to enable live editing
+      - /usr/src/app/node_modules # Avoid overwriting node_modules from the volume
