@@ -7,7 +7,7 @@ This template comes with build in support for MongoDB. It uses typescript and ev
 - Slash-Commands Handler (using CommandKit)
 - Event Handler (using CommandKit)
 - MongoDB Support
-- Command Cooldowns (soon)
+- Command Cooldowns
 - Build-in Docker support
 
 
