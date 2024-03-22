@@ -8,8 +8,7 @@ This template comes with build in support for MongoDB. It uses typescript and ev
 - Event Handler (using CommandKit)
 - MongoDB Support
 - Command Cooldowns (soon)
-- CLI to create new commands/events (soon)
-- Build-in Docker support (soon)
+- Build-in Docker support
 
 
 And more in the future!

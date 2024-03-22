@@ -24,6 +24,7 @@ class BotClient extends Client {
             client,
             commandsPath: path.join(__dirname, '../commands'),
             eventsPath: path.join(__dirname, '../events'),
+            validationsPath: path.join(__dirname, '../validations'),
             bulkRegister: true,
             skipBuiltInValidations: true,
         })
@@ -40,4 +41,6 @@ class BotClient extends Client {
       }
 }
 
-export { BotClient };
+const CooldownSet = new Set<string>()
+
+export { BotClient, CooldownSet }
